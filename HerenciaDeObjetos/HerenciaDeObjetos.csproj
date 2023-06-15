@@ -43,16 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Diagrama.cs" />
     <Compile Include="Formas\Circulo\Circulo.cs" />
     <Compile Include="Formas\Forma.cs" />
     <Compile Include="Formas\Poligonos\Poligono.cs" />
     <Compile Include="Formas\Poligonos\Rectangulo.cs" />
+    <Compile Include="Formas\Poligonos\Rombo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Formas\Poligonos\Triangulo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Diagrama\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,7 +5,8 @@ namespace HerenciaDeObjetos.Formas.Poligonos
     {
         public int Lados { get; set; }
 
-        public Poligono(int nLados) : base ("Poligono")
+
+        public Poligono(int nLados, string nNombre) : base (nNombre)
         {
             Lados = nLados;
         }  

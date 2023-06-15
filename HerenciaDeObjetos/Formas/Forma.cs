@@ -1,6 +1,4 @@
 ﻿
-using System.Dynamic;
-
 namespace HerenciaDeObjetos.Formas
 {
     public class Forma
